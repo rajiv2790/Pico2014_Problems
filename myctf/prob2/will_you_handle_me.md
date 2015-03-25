@@ -17,11 +17,13 @@ Signals
 ## Resources
 ---------
 https://www.cs.vu.nl/~herbertb/papers/srop_sp14.pdf
+
 http://thisissecurity.net/2015/01/03/playing-with-signals-an-overview-on-sigreturn-oriented-programming/
 
 ## Educational Value
 ------------------
 Signal handlers, what to include and what not
+
 The way signal return mechanism could be exploited if not coded properly
 
 ## Problem setup
