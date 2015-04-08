@@ -120,6 +120,7 @@ This find the value to be "1208263612". Hence on running,
 ` /levels/level10 1208263612`
 the password that is supposed to be input is obtained.
 "AverYloNgPassword!!"
+
 **This is then passed to the binary using
 `/levels/level10 `python -c 'print "AverYloNgPassword!!"'`
 and the shell is obtained.**
