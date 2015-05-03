@@ -8,7 +8,7 @@ Extract the pin as follows
 
 From here, the directory into which the source is extracted is referred to as <pin>.
 
-Copy the source file `taint_tracker.cpp into `<pin>/source/tools/ManualExamples`.
+Copy the source file `taint_tracker.cpp` into <pin>/source/tools/ManualExamples`.
 
 Before compiling, make sure to run this command as root: `echo 0 > /proc/sys/kernel/yama/ptrace_scope` to enable pin to access dynamic binary instrumentation.
 
