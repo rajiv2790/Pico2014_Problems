@@ -124,6 +124,9 @@ the password that is supposed to be input is obtained.
 **This is then passed to the binary using
 `/levels/level10 `python -c 'print "AverYloNgPassword!!"'`
 and the shell is obtained.**
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 
