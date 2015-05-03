@@ -14,6 +14,14 @@ Before compiling, make sure to run this command as root: `echo 0 > /proc/sys/ker
 
 Export the path `<pin>` to the `$PATH` variable using `export PATH=$PATH:<pin>`
 
+The intel pin binary is a 32 bit binary. Hence, we have to install gcc-multilib and g++-multilib.
+````
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install gcc-multilib
+sudo apt-get install g++-multilib
+````
+
 Compile the pintool using `make dir obj-intel64/taint_tracker.so`
 
 Copy the test programs to desired location `<tests>`
