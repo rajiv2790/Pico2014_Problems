@@ -1,0 +1,8 @@
+{"name": "Will you handle me",
+     "score": 120,
+     "category": "Binary Exploitation",
+     "grader": "rajivk/prob2/grader.py",
+     "description": "Deadalus Corp has a secret vault which can be opened with a preset secret password. Once the console to access the vault is activated, a user has only 10 seconds to enter the pass-phrase, or else the console turns itself off and has to be restarted. Inside the vault lies the secret formula to take over the world. Get into the vault and find the secret. Remember, the future of the world depends on you.",
+     "threshold": 0,
+     "weightmap": {},
+     "hint": "Check how a signal handler returns control back to the program."}

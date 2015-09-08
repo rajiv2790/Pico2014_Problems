@@ -1,0 +1,8 @@
+{"name": "ROP Me If You Can",
+     "score": 150,
+     "category": "Binary Exploitation",
+     "grader": "rajivk/prob1/grader.py",
+     "description": "There have been intelligence inputs that the casino Caesar's Hut is involved in drug smuggling activities. It has been suspected that the casino registration application at the counter is used by suppliers and dealers for sharing details of various deals. There may be a mechanism to store secret messages inside the harmless looking registration app. So your mission is to hack into the application and read the secret messages (flag) stored. There was an insider who managed to obtain one of the source files for us to analyze. The guy who developed this application claims that this application is pretty secure. In addition to having ASLR and DEP, it includes special functions which perform Control Flow Integrity checks making buffer-overflow attacks difficult. However, there may still be various holes in the application which could be exploited. Good Luck.",
+     "threshold": 0,
+     "weightmap": {},
+     "hint": "The hashing algorithm might be perfect. Look for other avenues. The function add_protection() shares the same memory space as the process. "}
